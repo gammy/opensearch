@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Nordstedts ENG-SVE</os:ShortName>
+<os:Description>Norstedtsord.se är en söktjänst för ord och översättningar.</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAPIAAAAhR0yO2EqS20iR3EyT3QAAAAAAAAAAACH5BAAAAAAALAAAAAAQABAAAAMoCLrc/jDKSCoZeNhg+82bZ2VaxYkfdp7V5L4wHARCBZpoWub2zeu5BAA7</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/norstedtsord-eng-sve.xml</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/norstedtsord-eng-sve.gif</IconUpdateUrl>
+<SearchForm>http://www.norstedtsord.se/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.norstedtsord.se/Templates/Search.aspx?id=92&amp;epslanguage=sv&amp;s={searchTerms}&amp;l=ENGSVE">
+</os:Url>
+</SearchPlugin>
